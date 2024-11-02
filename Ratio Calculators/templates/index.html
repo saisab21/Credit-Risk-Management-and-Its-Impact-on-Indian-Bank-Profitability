@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Financial Ratio Calculator</title>
+</head>
+<body>
+    <h1>Enter Financial Metrics for Ratio Calculation</h1>
+    <form action="/" method="POST">
+        <!-- Essential fields -->
+        <label>Total Debt (Crores): <input type="number" step="0.01" name="total_debt" required></label><br>
+        <label>Total Equity (Crores): <input type="number" step="0.01" name="total_equity" required></label><br>
+        <label>Non-Interest Income (Crores): <input type="number" step="0.01" name="non_interest_income" required></label><br>
+        <label>Total Income (Crores): <input type="number" step="0.01" name="total_income" required></label><br>
+        <label>Loan Loss Reserves (Crores): <input type="number" step="0.01" name="loan_loss_reserves" required></label><br>
+        <label>Gross Loans (Crores): <input type="number" step="0.01" name="gross_loans" required></label><br>
+        <label>Net Profit (Crores): <input type="number" step="0.01" name="net_profit" required></label><br>
+        <label>Risk-Weighted Assets (Crores): <input type="number" step="0.01" name="risk_weighted_assets" required></label><br>
+        <label>Tier 1 Capital (Crores): <input type="number" step="0.01" name="tier1_capital" required></label><br>
+        <label>Tier 2 Capital (Crores): <input type="number" step="0.01" name="tier2_capital" required></label><br>
+        <label>Total Deposits (Crores): <input type="number" step="0.01" name="total_deposits" required></label><br>
+        
+        <!-- Optional fields -->
+        <h3>Optional Fields</h3>
+        <label>Loan Loss Provisions (Crores): <input type="number" step="0.01" name="loan_loss_provisions"></label><br>
+        <label>Non-Performing Loans (Crores): <input type="number" step="0.01" name="non_performing_loans"></label><br>
+        <label>Credit Losses (Crores): <input type="number" step="0.01" name="credit_losses"></label><br>
+        <label>Total Assets (Crores): <input type="number" step="0.01" name="total_assets"></label><br>
+        <label>Average Earning Assets (Crores): <input type="number" step="0.01" name="average_earning_assets"></label><br>
+        <label>Average Total Assets (Crores): <input type="number" step="0.01" name="average_total_assets"></label><br>
+        <label>Average Shareholder's Equity (Crores): <input type="number" step="0.01" name="average_shareholders_equity"></label><br>
+
+        <button type="submit">Calculate Ratios</button>
+    </form>
+</body>
+</html>
