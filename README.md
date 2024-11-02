@@ -37,6 +37,8 @@ Most of these metrics can be calculated using data from financial statements, in
 
 Optional inputs include Provision Amounts, Non-Performing Loans, Credit Losses, and Total Assets. 
 
+The dataset on which the analysis is done can be accessed at [https://docs.google.com/spreadsheets/d/1HmwqxtZMcYe_jRyo2PxIw6qX6fPE0EVgBDo3v_EowDA/edit?usp=sharing](url)
+
 ## Analysis Approach
 The analysis process involves:
 1. **Data Collection**: Gather the basic input metrics from publicly available financial statements for selected banks.
