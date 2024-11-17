@@ -1,7 +1,7 @@
 import pandas as pd
 
 # Load the dataset without assuming headers
-file_path = "C:\\My_Projects\\Credit-Risk-Management-and-Its-Impact-on-Indian-Bank-Profitability\\DATA\\data.csv"  # Replace with your file path
+file_path = "C:\My_Projects\Credit-Risk-Management-and-Its-Impact-on-Indian-Bank-Profitability\DATA\REFINED_DATA.csv"  # Replace with your file path
 dataset = pd.read_csv(file_path, header=None)
 
 # Display the first few rows for inspection
